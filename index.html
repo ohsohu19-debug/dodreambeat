@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>리듬PAD로 배우는 BEAT 프로그램</title>
+  <meta name="description" content="리듬PAD로 장단을 배우고 친구들과 함께 합주하는 BEAT 프로그램 안내 웹페이지입니다.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="처음으로">
+      <span class="brand-mark">B</span>
+      <span>
+        <strong>리듬PAD로 배우는 BEAT</strong>
+        <small>교사용·학생용 앱 안내</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about">소개</a>
+      <a href="#flow">수업 흐름</a>
+      <a href="#guides">설명서</a>
+      <a href="#github">배포 방법</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">전통 장단 학습 · 리듬PAD · 협력 합주</p>
+        <h1>손으로 익히고, 귀로 듣고, 함께 만드는 장단 수업</h1>
+        <p class="lead">
+          리듬PAD로 배우는 BEAT 프로그램은 장구와 전통 장단을 앱으로 탐색하고,
+          연습과 실전 활동, 합주 모드까지 연결해 수업에서 바로 활용할 수 있도록 구성한 학습 프로그램입니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="assets/teacher-guide.pdf" download>교사용 설명서</a>
+          <a class="button secondary" href="assets/student-guide.pdf" download>학생용 설명서·학습지</a>
+        </div>
+      </div>
+      <figure class="hero-preview">
+        <img src="assets/student-01.jpg" alt="학생용 앱 설명서 첫 페이지 미리보기">
+      </figure>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head">
+        <p class="eyebrow">Program Overview</p>
+        <h2>무엇을 배울 수 있나요?</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="num">01</span>
+          <h3>장구 알아보기</h3>
+          <p>장구의 구조와 명칭, 부편과 채편의 소리 차이를 시각 자료와 함께 익힙니다.</p>
+        </article>
+        <article class="feature">
+          <span class="num">02</span>
+          <h3>장단 알아보기</h3>
+          <p>휘모리, 굿거리, 자진모리, 중중모리, 세마치 등 주요 장단을 듣고 따라 합니다.</p>
+        </article>
+        <article class="feature">
+          <span class="num">03</span>
+          <h3>장단 연습하기</h3>
+          <p>난이도와 속도를 조절하며 리듬PAD로 정확한 박과 순서를 연습합니다.</p>
+        </article>
+        <article class="feature">
+          <span class="num">04</span>
+          <h3>함께 합주하기</h3>
+          <p>같은 네트워크 안에서 방을 만들고 친구들과 같은 장단을 함께 연주합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section band" id="flow">
+      <div class="section-head">
+        <p class="eyebrow">Class Flow</p>
+        <h2>수업에서 이렇게 활용하세요</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <strong>도입</strong>
+          <span>리듬PAD 연결 상태를 확인하고 장구의 구조와 소리 원리를 살펴봅니다.</span>
+        </li>
+        <li>
+          <strong>전개 1</strong>
+          <span>장단의 입보, 구음, 동작 영상을 보며 기본 흐름을 익힙니다.</span>
+        </li>
+        <li>
+          <strong>전개 2</strong>
+          <span>연습 모드와 실전 장단치기로 개인별 정확도와 박자감을 높입니다.</span>
+        </li>
+        <li>
+          <strong>정리·확장</strong>
+          <span>합주 모드와 리듬 메이커로 협력 연주와 창작 리듬 활동을 진행합니다.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="guides">
+      <div class="section-head">
+        <p class="eyebrow">Guide Preview</p>
+        <h2>설명서 미리보기</h2>
+      </div>
+      <div class="tabs" role="tablist" aria-label="설명서 종류">
+        <button class="tab active" type="button" data-target="teacher" role="tab" aria-selected="true">교사용</button>
+        <button class="tab" type="button" data-target="student" role="tab" aria-selected="false">학생용</button>
+      </div>
+      <div class="preview-grid active" id="teacher" role="tabpanel">
+        <img src="assets/teacher-01.jpg" alt="교사용 설명서 1쪽">
+        <img src="assets/teacher-02.jpg" alt="교사용 설명서 2쪽">
+        <img src="assets/teacher-03.jpg" alt="교사용 설명서 3쪽">
+        <img src="assets/teacher-04.jpg" alt="교사용 설명서 4쪽">
+      </div>
+      <div class="preview-grid" id="student" role="tabpanel" hidden>
+        <img src="assets/student-01.jpg" alt="학생용 설명서 1쪽">
+        <img src="assets/student-02.jpg" alt="학생용 설명서 2쪽">
+        <img src="assets/student-03.jpg" alt="학생용 설명서 3쪽">
+        <img src="assets/student-04.jpg" alt="학생용 설명서 4쪽">
+      </div>
+    </section>
+
+    <section class="section band" id="github">
+      <div class="section-head">
+        <p class="eyebrow">GitHub Pages</p>
+        <h2>무료 공개 방법</h2>
+      </div>
+      <div class="deploy-steps">
+        <article>
+          <h3>1. 새 저장소 만들기</h3>
+          <p>GitHub에서 새 repository를 만들고 이름을 예: <code>dodreambeat</code>로 지정합니다.</p>
+        </article>
+        <article>
+          <h3>2. 파일 업로드</h3>
+          <p>이 폴더의 <code>index.html</code>, <code>style.css</code>, <code>script.js</code>, <code>assets</code> 폴더를 업로드합니다.</p>
+        </article>
+        <article>
+          <h3>3. Pages 켜기</h3>
+          <p>Settings → Pages → Deploy from a branch → <code>main</code> / <code>root</code>를 선택합니다.</p>
+        </article>
+        <article>
+          <h3>4. 주소 공유</h3>
+          <p>잠시 후 <code>https://아이디.github.io/dodreambeat/</code> 형식의 주소가 생깁니다.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>리듬PAD로 배우는 BEAT 프로그램 안내 웹페이지</p>
+    <a href="#top">맨 위로</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
